@@ -3579,10 +3579,10 @@
 		(uuid "fac905c5-e140-4111-bcf0-9b9be2901214")
 	)
 	(junction
-		(at 214.63 90.17)
+		(at 194.31 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fda2ac59-1ce5-4947-983c-eb957b040239")
+		(uuid "fce9c08d-f599-4a83-b49d-fa0f90d9777f")
 	)
 	(junction
 		(at 154.94 90.17)
@@ -3892,6 +3892,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 90.17) (xy 195.58 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050d2a03-30a0-45fc-b82a-a026f7ab2eca")
+	)
+	(wire
+		(pts
 			(xy 177.8 247.65) (xy 177.8 246.38)
 		)
 		(stroke
@@ -4149,16 +4159,6 @@
 			(type default)
 		)
 		(uuid "1d7d6257-bea7-4bc1-b2cb-db3a4942ed91")
-	)
-	(wire
-		(pts
-			(xy 214.63 90.17) (xy 238.76 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20f076d2-cefb-47ff-bdb2-d963da7c2e93")
 	)
 	(wire
 		(pts
@@ -4742,6 +4742,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 88.9) (xy 194.31 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e29d41-d55a-4ccb-8819-64a1ff2c3aa9")
+	)
+	(wire
+		(pts
 			(xy 196.85 185.42) (xy 194.31 187.96)
 		)
 		(stroke
@@ -5002,7 +5012,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 90.17) (xy 195.58 90.17)
+			(xy 193.04 90.17) (xy 194.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5192,7 +5202,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 90.17) (xy 214.63 90.17)
+			(xy 209.55 90.17) (xy 238.76 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5659,6 +5669,16 @@
 			(type default)
 		)
 		(uuid "fbf9be93-0d70-420a-bed6-64339628d213")
+	)
+	(wire
+		(pts
+			(xy 193.04 76.2) (xy 193.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca19202-7456-4143-9990-df56db3e67ec")
 	)
 	(wire
 		(pts
@@ -6430,7 +6450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0039aee7-a908-4577-8d9d-6c8db4b3b29f")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR035"
 			(at 231.14 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -6490,7 +6510,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR050")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6507,7 +6527,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "048c0dbe-48fd-404a-a910-aa99737ae39c")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR042"
 			(at 153.67 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -6567,7 +6587,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR089")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6585,7 +6605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04fbb3ca-2ded-497e-93ea-ba7983491271")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR019"
 			(at 193.04 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6645,7 +6665,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR07")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6663,7 +6683,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04ffd9f4-8ba3-4868-9d23-148a37846761")
-		(property "Reference" "TP11"
+		(property "Reference" "TP19"
 			(at 283.464 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6724,7 +6744,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP11")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -6823,7 +6843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "058af54f-014e-49f2-a950-3233c6d0c49f")
-		(property "Reference" "JP18"
+		(property "Reference" "JP17"
 			(at 54.61 228.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6912,7 +6932,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP18")
+					(reference "JP17")
 					(unit 1)
 				)
 			)
@@ -6930,7 +6950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07a02c1d-206e-48ac-90a6-9919653e4966")
-		(property "Reference" "JP16"
+		(property "Reference" "JP14"
 			(at 41.91 200.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7019,7 +7039,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP16")
+					(reference "JP14")
 					(unit 1)
 				)
 			)
@@ -7036,7 +7056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a40ee1a-c7fb-4895-8e3e-f8f035e40df0")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR046"
 			(at 101.6 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -7096,7 +7116,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR051")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7113,7 +7133,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cf52837-0bef-42bd-bb8a-348dfa68b2c2")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR071"
 			(at 177.8 254 0)
 			(hide yes)
 			(show_name no)
@@ -7173,7 +7193,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR048")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -7190,7 +7210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13f588c2-f756-499f-ada8-ca0e4edda334")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR014"
 			(at 31.75 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7250,7 +7270,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR067")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7267,7 +7287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16da17ec-bd61-4776-b330-d337ccfa9444")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR038"
 			(at 50.8 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7327,7 +7347,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR074")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7344,7 +7364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17ec39e3-5c6d-4599-8e4f-394dc8f082cf")
-		(property "Reference" "TP12"
+		(property "Reference" "TP15"
 			(at 143.51 175.768 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7405,7 +7425,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP12")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -7422,7 +7442,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1969aae0-842a-499a-b5af-3a05a5141b02")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR048"
 			(at 101.6 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -7482,7 +7502,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR052")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7500,7 +7520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c3b8603-7b69-445a-b2eb-84602d33aa2a")
-		(property "Reference" "TP10"
+		(property "Reference" "TP18"
 			(at 275.844 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7561,7 +7581,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP10")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -7578,7 +7598,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c4de21e-9d37-4af8-a979-e47cdffbf7e8")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR034"
 			(at 50.8 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7638,7 +7658,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR073")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7655,7 +7675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d3af582-75e1-4e70-be3c-f2c743d50ee9")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR031"
 			(at 218.44 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7715,7 +7735,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR045")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7733,7 +7753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d95bb27-360f-4f81-bc64-d58fb50fcd5c")
-		(property "Reference" "JP3"
+		(property "Reference" "JP2"
 			(at 35.56 40.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7822,7 +7842,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP3")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -7839,7 +7859,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e0d5ab3-5edf-47d0-9604-7b5892114b58")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR032"
 			(at 44.45 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7899,7 +7919,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR072")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7995,7 +8015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "239dbae1-e2c9-4355-928d-0d8895930c1c")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR023"
 			(at 38.1 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8055,7 +8075,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR069")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8073,7 +8093,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "244e2ba0-b490-4579-92f7-c26410d604be")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR052"
 			(at 297.18 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -8133,7 +8153,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR012")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8151,7 +8171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "263e294b-434c-4691-8c8a-24608dd9d9e3")
-		(property "Reference" "C2"
+		(property "Reference" "C9"
 			(at 303.53 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8259,7 +8279,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "C2")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8276,7 +8296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "266fa72d-09f0-4d0f-b980-f34e6570823e")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR065"
 			(at 101.6 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -8336,7 +8356,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR053")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -8353,7 +8373,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "267e4041-d2f6-428d-8192-88a80e008a13")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR01"
 			(at 31.75 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8413,7 +8433,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR057")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8430,7 +8450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26e23b14-b3e6-4938-881c-fe7a2f010086")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR068"
 			(at 57.15 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -8490,7 +8510,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR086")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -8633,7 +8653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28cd4001-18f2-40a4-ae85-6f5bd1d6e2d9")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR062"
 			(at 101.6 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -8693,7 +8713,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR054")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -8710,7 +8730,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "291ddbbe-7e7b-4351-b411-77966135cf56")
-		(property "Reference" "TP6"
+		(property "Reference" "TP17"
 			(at 198.12 180.848 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8771,7 +8791,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP6")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -8789,7 +8809,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "293b8b61-cfe6-4f4f-87b6-41418aab3152")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR018"
 			(at 171.45 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8849,7 +8869,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR02")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8866,7 +8886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "298e7198-d78d-4bae-b2c6-bb48e4fc32ee")
-		(property "Reference" "TP17"
+		(property "Reference" "TP4"
 			(at 300.99 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8927,7 +8947,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP17")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -8944,7 +8964,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29cf08ab-ce9b-401c-a16b-01845cc0d919")
-		(property "Reference" "J10"
+		(property "Reference" "J9"
 			(at 193.548 240.284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9008,7 +9028,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "J10")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -9026,7 +9046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2aa0c482-cd96-462b-a2da-cb4a57855746")
-		(property "Reference" "JP4"
+		(property "Reference" "JP15"
 			(at 99.06 205.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9115,7 +9135,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP4")
+					(reference "JP15")
 					(unit 1)
 				)
 			)
@@ -9132,7 +9152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2baeac40-a47d-4b11-8334-995625d8dd1e")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR067"
 			(at 57.15 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -9192,7 +9212,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR085")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -9210,7 +9230,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31d96291-c671-439a-b1ab-aab298a0fd7d")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR051"
 			(at 289.56 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -9270,7 +9290,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR011")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -9288,7 +9308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32e94552-ec33-4994-9511-6cc5f00e7a28")
-		(property "Reference" "TP14"
+		(property "Reference" "TP22"
 			(at 306.324 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9349,7 +9369,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP14")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -9366,7 +9386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34db99c9-846d-4086-b3f4-60e9347c4d78")
-		(property "Reference" "TP24"
+		(property "Reference" "TP5"
 			(at 241.3 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9427,7 +9447,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP24")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -9435,7 +9455,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 214.63 90.17 0)
+		(at 193.04 76.2 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9445,8 +9465,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37852eb5-9579-4db3-8c5d-ce946a0c4079")
-		(property "Reference" "TP5"
-			(at 215.646 85.344 0)
+		(property "Reference" "TP2"
+			(at 194.056 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9457,7 +9477,7 @@
 			)
 		)
 		(property "Value" "SRC1"
-			(at 215.646 87.122 0)
+			(at 194.056 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9468,7 +9488,7 @@
 			)
 		)
 		(property "Footprint" "Generic:Testpoint_SMD_S"
-			(at 209.55 90.17 0)
+			(at 187.96 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9479,7 +9499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 90.17 0)
+			(at 187.96 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9490,7 +9510,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 90.17 0)
+			(at 193.04 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9506,7 +9526,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -9524,7 +9544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39bcac74-09c6-4c05-8ebe-a07ebb673979")
-		(property "Reference" "JP5"
+		(property "Reference" "JP19"
 			(at 99.06 250.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9613,7 +9633,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP5")
+					(reference "JP19")
 					(unit 1)
 				)
 			)
@@ -9630,7 +9650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39d1ee29-7b6c-408d-b3a7-6f46843b8088")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 191.262 197.104 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9692,7 +9712,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9709,7 +9729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3de31424-450e-4ad7-9ae6-127298c6eee0")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR061"
 			(at 44.45 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -9769,7 +9789,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR081")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -9787,7 +9807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f17a46e-6a79-4df4-8d8b-d3121dffbcdc")
-		(property "Reference" "JP11"
+		(property "Reference" "JP8"
 			(at 41.91 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9876,7 +9896,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP11")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -9895,7 +9915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f4990d8-73c4-46bf-ad78-f06623a2b2de")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 158.75 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9959,7 +9979,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9976,7 +9996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "426fc9e5-7eda-4ad4-8b77-6f7d4df3feb5")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 302.26 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10082,7 +10102,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "L1")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -10100,7 +10120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4397f607-a01b-4193-9a88-e2dd4e7cdbc0")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 322.58 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10208,7 +10228,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10226,7 +10246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4503c57d-8d86-46d9-8c9e-0a02293ef937")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 199.7075 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10332,7 +10352,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10349,7 +10369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4794baf9-d7ba-4f49-aa44-482fb1cd0536")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR013"
 			(at 318.77 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10409,7 +10429,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR039")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10426,7 +10446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4948ccea-28ca-4f3f-ba2c-5eca2ae0e981")
-		(property "Reference" "TP18"
+		(property "Reference" "TP10"
 			(at 291.592 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10437,7 +10457,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SWL"
+		(property "Value" "VINT"
 			(at 291.592 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10487,7 +10507,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP18")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -10505,7 +10525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a2636bb-3fb0-44da-82e4-69f22f0696e9")
-		(property "Reference" "C6"
+		(property "Reference" "C10"
 			(at 245.11 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10613,7 +10633,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "C6")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10631,7 +10651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c54f3e6-fb9f-497b-89b3-3d11fd16f302")
-		(property "Reference" "TP27"
+		(property "Reference" "TP21"
 			(at 298.704 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10692,7 +10712,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP27")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -10709,7 +10729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ccb7d7d-c0ae-42a9-9cd8-e5ce05082d16")
-		(property "Reference" "J7"
+		(property "Reference" "J2"
 			(at 346.964 89.916 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10773,7 +10793,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "J7")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10790,7 +10810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d987f7e-cf25-43aa-90b7-bad3f381d206")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 191.262 192.024 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10852,7 +10872,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10869,7 +10889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "505f4c8c-84eb-43e4-bd9e-f5db88cb8f73")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 221.742 124.206 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10931,7 +10951,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10948,7 +10968,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54d60e2c-d881-458f-a730-03fc4321cc9d")
-		(property "Reference" "TP8"
+		(property "Reference" "TP30"
 			(at 179.07 217.678 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11009,7 +11029,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP8")
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -11026,7 +11046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54eeeba3-1b59-43fc-bbf1-dfec036035cd")
-		(property "Reference" "TP2"
+		(property "Reference" "TP28"
 			(at 185.166 201.422 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11087,7 +11107,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP2")
+					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -11104,7 +11124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5602fdc4-6452-412e-88ff-3394b50988bd")
-		(property "Reference" "TP23"
+		(property "Reference" "TP6"
 			(at 252.73 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11165,7 +11185,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP23")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -11183,7 +11203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "584d4564-f52e-4e95-9560-9f1f51915c76")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR049"
 			(at 274.32 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -11243,7 +11263,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR03")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -11260,7 +11280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a2494ea-4a77-48c2-a641-291e98da9713")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR033"
 			(at 276.86 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -11320,7 +11340,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR035")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11337,7 +11357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d846b8c-8bfe-4d5a-a411-3aaf79249541")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR011"
 			(at 336.55 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11397,7 +11417,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR044")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11415,7 +11435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e31b358-3452-4d28-9f7d-95dd49eca0ae")
-		(property "Reference" "JP17"
+		(property "Reference" "JP16"
 			(at 48.26 214.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11504,7 +11524,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP17")
+					(reference "JP16")
 					(unit 1)
 				)
 			)
@@ -11521,7 +11541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f6dc595-2dfc-4f35-9d16-72bcc762b251")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR043"
 			(at 205.74 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -11581,7 +11601,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR031")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -11598,7 +11618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6178087a-0a09-44a5-882d-940013d9ec10")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR047"
 			(at 38.1 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -11658,7 +11678,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR079")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -11675,7 +11695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "636de01d-c1c4-4266-af12-a64e3ddf208f")
-		(property "Reference" "TP31"
+		(property "Reference" "TP14"
 			(at 157.48 169.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11736,7 +11756,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP31")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -11753,7 +11773,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63822122-d40c-45fe-a260-44a45ba525b7")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR058"
 			(at 38.1 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -11813,7 +11833,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR080")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -11830,7 +11850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64bc35c9-cd05-4abc-b25b-6e9a60b33451")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR045"
 			(at 31.75 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -11890,7 +11910,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR078")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -12031,7 +12051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b3499e2-eafc-41eb-b938-72028eabb259")
-		(property "Reference" "TP30"
+		(property "Reference" "TP26"
 			(at 336.804 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12092,7 +12112,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP30")
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -12109,7 +12129,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b787797-0c42-47d3-be0b-013f3064a367")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR021"
 			(at 226.06 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12169,7 +12189,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR040")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12186,7 +12206,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b79d59d-8f08-4438-91ca-f43bdb0fb906")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR072"
 			(at 63.5 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -12246,7 +12266,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR088")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -12264,7 +12284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e6a7f37-aa95-40c8-9a20-dc2a92d3152c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR054"
 			(at 312.42 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -12324,7 +12344,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR06")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -12342,7 +12362,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70d408f0-263c-4141-8f67-e1c3b33f17e0")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR053"
 			(at 304.8 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -12402,7 +12422,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR05")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -12419,7 +12439,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "711c91e1-6c61-4d48-8139-0f409ce6407a")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR04"
 			(at 38.1 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12479,7 +12499,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR066")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -12497,7 +12517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7276e8e9-3e9d-4da0-97d9-308afb588764")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR017"
 			(at 154.94 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12557,7 +12577,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR01")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -12574,7 +12594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "734adc76-4278-4477-8062-c45184a9869c")
-		(property "Reference" "TP1"
+		(property "Reference" "TP29"
 			(at 173.736 201.422 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12635,7 +12655,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP1")
+					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -12653,7 +12673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73f3e0f3-f259-4383-ad99-d82922681459")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR050"
 			(at 281.94 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -12713,7 +12733,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR04")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12732,7 +12752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "760d3ae0-ca99-4f6e-8731-39c6aef94220")
-		(property "Reference" "C8"
+		(property "Reference" "C4"
 			(at 175.26 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12796,7 +12816,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "C8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -12814,7 +12834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7741a9f7-6bb3-4e78-895a-668278e6efbe")
-		(property "Reference" "TP28"
+		(property "Reference" "TP24"
 			(at 321.564 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12875,7 +12895,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP28")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -12893,7 +12913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a11bbbc-8056-49b4-84aa-8bc0d9d49e04")
-		(property "Reference" "JP10"
+		(property "Reference" "JP7"
 			(at 35.56 111.7599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12982,7 +13002,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP10")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -12999,7 +13019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b382a05-99ec-46e5-b787-1f7df2e0aa23")
-		(property "Reference" "L4"
+		(property "Reference" "L1"
 			(at 158.496 89.154 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13061,7 +13081,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "L4")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -13079,7 +13099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cea97fa-5d40-4368-b1de-c4a4acff6ac9")
-		(property "Reference" "JP12"
+		(property "Reference" "JP9"
 			(at 48.26 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13168,7 +13188,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP12")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -13186,7 +13206,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7fc4c97a-1ff9-48cc-8dab-928e0bbd41b0")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR057"
 			(at 335.28 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -13246,7 +13266,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR015")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -13263,7 +13283,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80a49827-6474-4584-a2a2-7b6e94fc9381")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR063"
 			(at 44.45 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -13323,7 +13343,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR082")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -13341,7 +13361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80ca083c-5e8a-4123-8c17-146ba2d833be")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 180.34 226.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13405,7 +13425,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -13423,7 +13443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80ec364a-c4c8-4761-bcd1-5c40cc84adbf")
-		(property "Reference" "JP7"
+		(property "Reference" "JP4"
 			(at 48.26 68.5799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13512,7 +13532,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP7")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -13529,7 +13549,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "819a6ddd-8e39-4a70-a5ef-01960b43e4e9")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR03"
 			(at 38.1 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13589,7 +13609,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR058")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -13607,7 +13627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8270b1d1-e1b2-4e74-b012-c411f462ef61")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 233.68 134.6199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13715,7 +13735,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -13733,7 +13753,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82b4c476-e14f-45d6-bacb-2be2ab03522c")
-		(property "Reference" "TP26"
+		(property "Reference" "TP20"
 			(at 291.084 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13794,7 +13814,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP26")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -13811,7 +13831,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8308c3c4-370a-444f-b6da-dbc7c0546f73")
-		(property "Reference" "J4"
+		(property "Reference" "J8"
 			(at 221.996 178.054 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13947,7 +13967,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "J4")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -13964,7 +13984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "835cc6ea-6e00-4595-a8bc-5aaf1c81651b")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 323.596 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14028,7 +14048,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -14241,7 +14261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "858845bf-61b5-443d-bfdd-9d365b65b1e5")
-		(property "Reference" "J3"
+		(property "Reference" "J6"
 			(at 204.978 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14347,7 +14367,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "J3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -14364,7 +14384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "865f53dd-5323-46c8-a2e7-d1cd1d686257")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR069"
 			(at 63.5 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -14424,7 +14444,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR087")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -14441,7 +14461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8687ee65-b451-411c-83d9-667278125425")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR036"
 			(at 241.3 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -14501,7 +14521,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR043")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -14518,7 +14538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "885bebf8-ad20-49a1-9dc7-864cc7303d48")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR060"
 			(at 232.41 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -14578,7 +14598,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR033")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -14595,7 +14615,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d2409f3-5793-4729-a893-e9273531c52d")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR022"
 			(at 31.75 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -14655,7 +14675,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR068")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -14673,7 +14693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d2789f7-ef8e-4fe2-a325-a8f1a47ec300")
-		(property "Reference" "JP13"
+		(property "Reference" "JP10"
 			(at 54.61 153.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14762,7 +14782,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP13")
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -14780,7 +14800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e90a75d-d022-4c3e-bad9-ba3ad8917c0f")
-		(property "Reference" "TP29"
+		(property "Reference" "TP25"
 			(at 329.184 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14841,7 +14861,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP29")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -14859,7 +14879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "929fac2e-d365-4524-bcee-3fefac2ec090")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR056"
 			(at 327.66 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -14919,7 +14939,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR014")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -15043,7 +15063,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "968facde-dddd-41ed-89b0-86135cc2a839")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR041"
 			(at 31.75 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -15103,7 +15123,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR077")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -15121,7 +15141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aa1d6bb-a580-48c6-8f82-c1bb687152d5")
-		(property "Reference" "JP15"
+		(property "Reference" "JP13"
 			(at 35.56 186.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15210,7 +15230,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP15")
+					(reference "JP13")
 					(unit 1)
 				)
 			)
@@ -15227,7 +15247,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b6e29f6-894e-4b30-8e62-62dc04d447b5")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR037"
 			(at 254 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -15287,7 +15307,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR042")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -15295,7 +15315,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 78.74 0)
+		(at 185.42 76.2 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15305,8 +15325,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d2d6202-90aa-4364-9ac9-6227d9bc06b3")
-		(property "Reference" "#PWR010"
-			(at 214.63 85.09 0)
+		(property "Reference" "#PWR09"
+			(at 185.42 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15317,7 +15337,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 82.55 0)
+			(at 185.42 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15327,7 +15347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 78.74 0)
+			(at 185.42 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15338,7 +15358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 78.74 0)
+			(at 185.42 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15349,7 +15369,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 78.74 0)
+			(at 185.42 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15365,7 +15385,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -15508,7 +15528,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a385d24a-dfff-42d4-be86-a27e046727ac")
-		(property "Reference" "TP16"
+		(property "Reference" "TP3"
 			(at 302.26 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15569,7 +15589,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP16")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -15586,7 +15606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3c6309e-30b7-4506-90e9-8bb91bb2b8a7")
-		(property "Reference" "TP7"
+		(property "Reference" "TP16"
 			(at 189.23 180.848 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15647,7 +15667,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP7")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -15664,7 +15684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3d7783f-cde0-41fa-9dda-69f0001b7ec1")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR05"
 			(at 44.45 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15724,7 +15744,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR059")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -15743,7 +15763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8371d56-7eec-498f-83a2-517f926cd26e")
-		(property "Reference" "C10"
+		(property "Reference" "C5"
 			(at 213.36 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15807,7 +15827,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "C10")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -15824,7 +15844,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a98edc8f-e588-4bd9-b389-47ffa4eb6ea3")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR025"
 			(at 309.88 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -15884,7 +15904,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR037")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -15902,7 +15922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa455902-d981-44e3-a7cd-547df5fdc093")
-		(property "Reference" "J9"
+		(property "Reference" "J3"
 			(at 142.24 94.7303 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16010,7 +16030,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "J9")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -16028,7 +16048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab811493-d33e-4792-911c-c62199b86f5e")
-		(property "Reference" "JP9"
+		(property "Reference" "JP6"
 			(at 29.21 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16117,7 +16137,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP9")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -16134,7 +16154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aba0d310-61b9-4cdd-b97b-ae150fc2864a")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR026"
 			(at 217.17 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -16194,7 +16214,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR046")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -16211,7 +16231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abb109d2-f4a4-4c07-91d3-132c9e08eb23")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR030"
 			(at 44.45 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16271,7 +16291,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR071")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -16289,7 +16309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af1b0b7b-b494-4613-b9d3-a12c22c60617")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR016"
 			(at 139.7 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -16349,7 +16369,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR09")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -16367,7 +16387,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af53de61-597a-42e9-b448-9f219524cfe9")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR055"
 			(at 320.04 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -16427,7 +16447,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR013")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -16444,7 +16464,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b294bca1-8cc8-46ba-8db2-5f8cd28218aa")
-		(property "Reference" "TP19"
+		(property "Reference" "TP13"
 			(at 244.602 129.032 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16505,7 +16525,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP19")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -16522,7 +16542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b81f0ddf-c38e-459e-be8d-9a0478000874")
-		(property "Reference" "TP25"
+		(property "Reference" "TP9"
 			(at 241.3 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16583,7 +16603,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP25")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -16600,7 +16620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba910fec-01d9-4a0b-ac12-7f7a7e1f4b38")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR073"
 			(at 101.6 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -16660,7 +16680,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR056")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -16677,7 +16697,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bef3ebda-754b-44fa-b754-3fd8737e5e7a")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR064"
 			(at 50.8 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -16737,7 +16757,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR083")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -16755,7 +16775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bef3ed36-33e3-44f8-be2d-9ff4707243f8")
-		(property "Reference" "C1"
+		(property "Reference" "C7"
 			(at 313.69 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16863,7 +16883,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "C1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -16881,7 +16901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3d75f5b-14f2-49d0-ab90-51975e413c7a")
-		(property "Reference" "JP6"
+		(property "Reference" "JP3"
 			(at 41.91 54.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16970,7 +16990,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP6")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -16987,7 +17007,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cafb25ee-55b7-4a77-96cf-ea0ef34edadc")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR08"
 			(at 50.8 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -17047,7 +17067,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR063")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -17064,7 +17084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb77fd69-a57f-4223-ad45-d01bf3ac1919")
-		(property "Reference" "L3"
+		(property "Reference" "L4"
 			(at 237.998 117.856 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17170,7 +17190,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "L3")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -17187,7 +17207,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cccb2822-1119-493b-865c-85f40eb28d75")
-		(property "Reference" "L2"
+		(property "Reference" "L3"
 			(at 237.998 100.076 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17293,7 +17313,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "L2")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -17310,7 +17330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd54b04d-3b71-4d3b-93ea-389a18ff7950")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR070"
 			(at 101.6 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -17370,7 +17390,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR055")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -17387,7 +17407,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cec1a5d5-48ea-4211-94e8-dbb34e2d478c")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR012"
 			(at 57.15 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -17447,7 +17467,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR062")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -17464,7 +17484,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cef6363e-3f4f-4a95-ae6b-8a42de7d1700")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR027"
 			(at 38.1 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -17524,7 +17544,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR070")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -17541,7 +17561,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d24acb8f-77df-4631-8e04-830e0a6c0355")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR059"
 			(at 214.63 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -17601,7 +17621,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR032")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -17618,7 +17638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d29a93fb-78ce-4e3d-98d2-59c2a167ee34")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR02"
 			(at 31.75 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -17678,7 +17698,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR065")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -17695,7 +17715,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3193bee-900d-4a43-bb48-24d7a732bd6c")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR029"
 			(at 299.72 127 0)
 			(hide yes)
 			(show_name no)
@@ -17755,7 +17775,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR038")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17772,7 +17792,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3b1da79-4a54-4b8c-a717-01f31f40a294")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR010"
 			(at 57.15 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -17832,7 +17852,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR061")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -17850,7 +17870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d429b63c-189d-4b3d-93d4-f4463882c083")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 229.87 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17958,7 +17978,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -17975,7 +17995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5b710c9-d32b-4426-9a86-74e75547ae33")
-		(property "Reference" "TP21"
+		(property "Reference" "TP8"
 			(at 236.22 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18036,7 +18056,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP21")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -18054,7 +18074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d620fa72-702b-4d5e-b53e-605e6784c5d5")
-		(property "Reference" "JP8"
+		(property "Reference" "JP5"
 			(at 54.61 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18143,7 +18163,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP8")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -18160,7 +18180,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d678639c-518c-4470-ad00-690bee5b96ed")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 169.164 173.736 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18224,7 +18244,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -18232,7 +18252,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 214.63 78.74 0)
+		(at 185.42 76.2 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -18242,8 +18262,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7df6251-27c9-4e2d-914a-cacdecd11206")
-		(property "Reference" "TP4"
-			(at 216.154 74.676 0)
+		(property "Reference" "TP1"
+			(at 186.944 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18254,7 +18274,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 76.454 0)
+			(at 186.69 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18265,7 +18285,7 @@
 			)
 		)
 		(property "Footprint" "Generic:Testpoint_SMD_S"
-			(at 209.55 78.74 0)
+			(at 180.34 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18276,7 +18296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 78.74 0)
+			(at 180.34 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18287,7 +18307,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 78.74 0)
+			(at 185.42 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18303,7 +18323,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP4")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -18320,7 +18340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dad3dd86-371d-460d-bb2b-1e2481156b73")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR039"
 			(at 57.15 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -18380,7 +18400,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR075")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -18397,7 +18417,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc84cd51-5832-4ddb-936c-62c747082e42")
-		(property "Reference" "TP22"
+		(property "Reference" "TP11"
 			(at 252.73 113.792 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18458,7 +18478,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP22")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -18475,7 +18495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcf44791-f846-4fef-8c0b-dccc551ba829")
-		(property "Reference" "TP20"
+		(property "Reference" "TP12"
 			(at 236.22 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18536,7 +18556,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP20")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -18553,7 +18573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df48b8bc-7a60-4a30-9cb3-efb4675c73b2")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR024"
 			(at 299.72 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -18613,7 +18633,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR049")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -18630,7 +18650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1889cc3-8859-4b2a-8538-53a558dd3926")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR066"
 			(at 50.8 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -18690,7 +18710,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR084")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -18708,7 +18728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e36500ce-b53f-446d-99a6-3547018843a9")
-		(property "Reference" "JP2"
+		(property "Reference" "JP12"
 			(at 99.06 184.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18797,7 +18817,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP2")
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -18815,7 +18835,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4e51a29-8b93-4979-a884-9278e14e9005")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR020"
 			(at 209.55 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -18875,7 +18895,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR08")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -18893,7 +18913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e66a8aa7-75a4-460e-960b-b8b3f3611425")
-		(property "Reference" "JP19"
+		(property "Reference" "JP18"
 			(at 60.96 242.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18982,7 +19002,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP19")
+					(reference "JP18")
 					(unit 1)
 				)
 			)
@@ -19000,7 +19020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8ff816d-1ffe-4122-a583-d14eb5198315")
-		(property "Reference" "C9"
+		(property "Reference" "C2"
 			(at 187.452 85.852 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19064,7 +19084,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "C9")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -19081,7 +19101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9733b66-04ba-48e9-bf7b-b475b5df2785")
-		(property "Reference" "TP13"
+		(property "Reference" "TP7"
 			(at 302.26 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19142,7 +19162,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP13")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -19159,7 +19179,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eafd7957-5918-4743-9dd5-27a81215dc82")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR044"
 			(at 241.3 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -19219,7 +19239,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR034")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -19237,7 +19257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb7139db-090a-4672-86e0-cfaec5c9beef")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 256.54 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19301,7 +19321,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -19319,7 +19339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edd29ae7-2198-49a8-b467-8f92b250c0be")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 229.87 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19427,7 +19447,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -19444,7 +19464,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee017264-d1ef-437b-88b7-ea97fa49d25b")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR07"
 			(at 50.8 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -19504,7 +19524,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR060")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -19521,7 +19541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eee787bb-7a0a-4704-864d-1b0bac1b736d")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR015"
 			(at 328.93 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -19581,7 +19601,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR036")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -19598,7 +19618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0195175-3912-4a1e-9196-4a3833d212b5")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR028"
 			(at 226.06 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -19658,7 +19678,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR041")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -19871,7 +19891,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4f96b77-3cb5-48b7-903f-4245731ca1b7")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR06"
 			(at 44.45 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -19931,7 +19951,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR064")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -19949,7 +19969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f52fc5cd-5414-4bc4-b008-02d5f31fd3aa")
-		(property "Reference" "TP15"
+		(property "Reference" "TP23"
 			(at 313.944 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20010,7 +20030,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP15")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -20027,7 +20047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f706ac97-0a04-4be4-8ca5-ec1d3dd0c3c5")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 191.262 194.564 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20089,7 +20109,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -20106,7 +20126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f767fbb8-4c90-45f8-9a0d-ab5148b1440d")
-		(property "Reference" "TP3"
+		(property "Reference" "TP27"
 			(at 181.356 189.992 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20167,7 +20187,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "TP3")
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -20184,7 +20204,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f950975c-f214-49e8-9d73-a2aa2d0841b0")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR040"
 			(at 57.15 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -20244,7 +20264,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "#PWR076")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -20262,7 +20282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fce02b13-e933-485a-9cbe-7581f09bc30c")
-		(property "Reference" "JP14"
+		(property "Reference" "JP11"
 			(at 29.21 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20351,7 +20371,7 @@
 		(instances
 			(project "6gend-hvst-db-1"
 				(path "/bc7000d0-f3a1-46e5-9892-57f002569dda"
-					(reference "JP14")
+					(reference "JP11")
 					(unit 1)
 				)
 			)
