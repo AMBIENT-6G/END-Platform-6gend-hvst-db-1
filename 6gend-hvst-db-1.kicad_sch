@@ -5,7 +5,7 @@
 	(uuid "bc7000d0-f3a1-46e5-9892-57f002569dda")
 	(paper "A3")
 	(title_block
-		(date "2026-08-05")
+		(date "2026-08-11")
 		(rev "1a")
 	)
 	(lib_symbols
@@ -6705,7 +6705,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Generic:Testpoint_THT"
+		(property "Footprint" "Generic:Testpoint_THT_Marked"
 			(at 276.86 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -7542,7 +7542,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Generic:Testpoint_THT"
+		(property "Footprint" "Generic:Testpoint_THT_Marked"
 			(at 269.24 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -9330,7 +9330,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Generic:Testpoint_THT"
+		(property "Footprint" "Generic:Testpoint_THT_Marked"
 			(at 299.72 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -9476,7 +9476,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SRC1"
+		(property "Value" "ANT"
 			(at 194.056 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10673,7 +10673,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Generic:Testpoint_THT"
+		(property "Footprint" "Generic:Testpoint_THT_Marked"
 			(at 292.1 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -12073,7 +12073,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Generic:Testpoint_THT"
+		(property "Footprint" "Generic:Testpoint_THT_Marked"
 			(at 330.2 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -12856,7 +12856,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Generic:Testpoint_THT"
+		(property "Footprint" "Generic:Testpoint_THT_Marked"
 			(at 314.96 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -13775,7 +13775,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Generic:Testpoint_THT"
+		(property "Footprint" "Generic:Testpoint_THT_Marked"
 			(at 284.48 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -14822,7 +14822,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Generic:Testpoint_THT"
+		(property "Footprint" "Generic:Testpoint_THT_Marked"
 			(at 322.58 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -19991,7 +19991,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Generic:Testpoint_THT"
+		(property "Footprint" "Generic:Testpoint_THT_Marked"
 			(at 307.34 190.5 0)
 			(hide yes)
 			(show_name no)
