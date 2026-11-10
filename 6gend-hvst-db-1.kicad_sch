@@ -10899,8 +10899,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 229.87 124.206 90)
+		(property "Value" "10"
+			(at 230.632 124.206 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19268,7 +19268,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3k9"
 			(at 256.54 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
